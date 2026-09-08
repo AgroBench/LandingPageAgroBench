@@ -8,3 +8,12 @@ npm run dev
 ```
 
 Abre em `http://localhost:5173`.
+
+## GitHub Pages
+
+O site é publicado em:
+
+https://agrobenc.github.io/LandingPage-AgroBench/
+
+No repositório: **Settings → Pages → Source → GitHub Actions**.
+O workflow em `.github/workflows/deploy-pages.yml` gera o `dist` a cada push na `main`.
