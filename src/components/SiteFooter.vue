@@ -45,7 +45,7 @@ const cols = [
     </div>
     <div class="border-t border-stone">
       <p class="mx-auto max-w-6xl px-5 py-5 text-xs text-muted lg:px-8">
-        © {{ new Date().getFullYear() }} AgroBench. Material de apresentação — não constitui oferta de valor mobiliário.
+        © {{ new Date().getFullYear() }} AgroBench.
       </p>
     </div>
   </footer>
