@@ -13,7 +13,7 @@ Abre em `http://localhost:5173`.
 
 O site é publicado em:
 
-https://agrobenc.github.io/LandingPageAgroBench/
+https://agrobench.github.io/LandingPageAgroBench/
 
 No repositório: **Settings → Pages → Source → GitHub Actions**.
 O workflow em `.github/workflows/deploy-pages.yml` gera o `dist` a cada push na `main`.
