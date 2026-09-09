@@ -1,0 +1,2 @@
+# GitHub Pages ignores files that look like Jekyll internals.
+# Keep this so the built site is served as static files.
