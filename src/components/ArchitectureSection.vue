@@ -22,7 +22,7 @@ const layers = [
   },
   {
     title: 'Distribuição',
-    body: 'Assinaturas entram num pool Solana. Todo mês, o contrato reparte proporcionalmente — peso por granularidade, raridade da região/cultura e contribuição validada.',
+    body: 'Assinaturas entram no pool na Solana. Todo mês o protocolo reparte — peso por granularidade, raridade da região/cultura e contribuição validada. Na demo: Devnet, transferência USDC-SPL da treasury; o programa Anchor de split é a evolução.',
   },
 ]
 </script>

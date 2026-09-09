@@ -8,6 +8,10 @@ const limits = [
     title: 'Vínculo CPF → wallet sob a LGPD',
     body: 'Hash guardado pelo AgroBench, finalidade restrita (recuperação de conta e verificação de CAR), direito de exclusão pelo titular. Recompensa em cripto atrelada a atividade regular será submetida a CVM e Banco Central antes de produção.',
   },
+  {
+    title: 'Demo: Solana Devnet, o resto mock',
+    body: 'Commit, atestação e recompensa em USDC-SPL já rodam na Devnet (Memo + transfer da treasury). Validação TEE, SICAR, CONAB, SMS e pagamento ainda são mock. Stake no hackathon é registrado on-chain como Memo — escrow Anchor é o próximo passo. Não é mainnet.',
+  },
 ]
 </script>
 
@@ -17,7 +21,7 @@ const limits = [
       <p class="text-xs font-semibold uppercase tracking-[0.2em] text-muted">Limitações assumidas</p>
       <h2 class="mt-3 font-display text-2xl text-ink sm:text-3xl">Não escondemos os trade-offs.</h2>
     </div>
-    <div class="mt-8 grid gap-4 md:grid-cols-2">
+    <div class="mt-8 grid gap-4 md:grid-cols-3">
       <article
         v-for="(limit, i) in limits"
         :key="limit.title"

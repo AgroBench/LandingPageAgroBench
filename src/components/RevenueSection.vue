@@ -2,7 +2,7 @@
 const flow = [
   {
     title: 'Assinaturas no pool',
-    body: 'O pagamento das instituições entra num contrato na Solana. Sem transação a cada consulta — o período acumula.',
+    body: 'O pagamento das instituições entra no pool na Solana. Sem transação a cada consulta — o período acumula. Na demo o crédito é USDC-SPL na Devnet; o contrato de escrow/split é o próximo passo.',
   },
   {
     title: 'Registro de quem contribuiu',

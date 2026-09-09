@@ -2,24 +2,20 @@
 defineProps({
   light: { type: Boolean, default: false },
 })
+
+const iconSrc = `${import.meta.env.BASE_URL}apple-touch-icon.png`
 </script>
 
 <template>
   <a href="#topo" class="group flex items-center gap-2.5" aria-label="AgroBench, início">
-    <span
-      class="flex h-9 w-9 items-center justify-center rounded-xl border"
-      :class="
-        light
-          ? 'border-stone bg-ink text-mint'
-          : 'border-white/10 bg-white/5 text-mint'
-      "
-    >
-      <svg viewBox="0 0 32 32" class="h-5 w-5" fill="none" aria-hidden="true">
-        <path d="M8 22V14.5" stroke="#C9A227" stroke-width="2.6" stroke-linecap="round" />
-        <path d="M16 22V9.5" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" />
-        <path d="M24 22V12" stroke="#E8D5A3" stroke-width="2.6" stroke-linecap="round" />
-      </svg>
-    </span>
+    <img
+      :src="iconSrc"
+      alt=""
+      width="36"
+      height="36"
+      class="h-9 w-9 rounded-xl object-cover"
+      :class="light ? 'border border-stone' : 'border border-white/10'"
+    />
     <span
       class="text-[17px] font-bold tracking-tight"
       :class="light ? 'text-ink' : 'text-cream'"
